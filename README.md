@@ -5,9 +5,10 @@
 Before you can build this project, you must install and configure the following dependencies on your machine:
 
 [java 11][]: Java 11 is the minimum java version required.
- 
 
-Environments dev,swagger will be enabled by default when the project is started.
+
+Environment dev will be enabled by default when the project is started.
+When running the project, enable swagger profile in order to be able to access the swagger documentation.
 The swagger documentation can be accessed on
 [http://[ip address]:[port]/swagger-ui/index.html]
 
