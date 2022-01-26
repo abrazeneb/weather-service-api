@@ -1,0 +1,46 @@
+{
+    "coord": {
+        "lon": 55.2708,
+        "lat": 25.2048
+    },
+    "weather": [
+        {
+            "id": 800,
+            "main": "Clear",
+            "description": "clear sky",
+            "icon": "01n"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 294.98,
+        "feels_like": 294.84,
+        "temp_min": 294.98,
+        "temp_max": 294.98,
+        "pressure": 1017,
+        "humidity": 62,
+        "sea_level": 1017,
+        "grnd_level": 1017
+    },
+    "visibility": 10000,
+    "wind": {
+        "speed": 1.96,
+        "deg": 32,
+        "gust": 2.08
+    },
+    "clouds": {
+        "all": 0
+    },
+    "dt": 1643147641,
+    "sys": {
+        "type": 2,
+        "id": 2032443,
+        "country": "AE",
+        "sunrise": 1643166248,
+        "sunset": 1643205503
+    },
+    "timezone": 14400,
+    "id": 290845,
+    "name": "Ash Shindaghah",
+    "cod": 200
+}

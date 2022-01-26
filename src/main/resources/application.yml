@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: weather-service
+server:
+  port: 8080
+feign:
+  weather-client: https://api.openweathermap.org/data/2.5/weather
+
+management:
+  endpoint:
+    health:
+      status:
+        order: DOWN,OUT_OF_SERVICE,UNKNOWN,DEGRADED,UP
+      show-details: always
+  endpoints:
+    web:
+      base-path: /actuator
+      exposure:
+        include: "*"
+cache:
+  ehcache:
+    defaultMaxEntriesSize: 200
+    defaultTimeToLiveSeconds: 7200
