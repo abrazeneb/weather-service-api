@@ -1,6 +1,8 @@
 spring:
   application:
     name: weather-service
+  profiles:
+    active: dev,swagger
 server:
   port: 8080
 feign:
